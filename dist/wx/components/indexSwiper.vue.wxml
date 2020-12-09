@@ -1,0 +1,9 @@
+<template name="3e571687">
+  <view class="_div data-v-90205a4e box">
+    <swiper class="_swiper data-v-90205a4e swiper" autoplay="{{true}}" circular="{{true}}" current="0" vertical="{{true}}">
+      <swiper-item class="_swiper-item data-v-90205a4e item">
+        <image mode="aspectFill" lazy-load="true" src="cloud://test1-4gqpf0yy03d701f7.7465-test1-4gqpf0yy03d701f7-1304451305/image/5.jpg" class="_img data-v-90205a4e slide-image"></image>
+      </swiper-item>
+    </swiper>
+  </view>
+</template>

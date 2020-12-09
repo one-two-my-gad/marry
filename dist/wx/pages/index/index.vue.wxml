@@ -1,0 +1,24 @@
+<import src="/components/indexSwiper.vue.wxml" /><template name="4cef5f38">
+  <view class="_div data-v-15fba8d2 index">
+    <view class="_div data-v-15fba8d2 bg-swiper"><template data="{{...$root[$kk+'0'], $root}}" is="3e571687"></template></view>
+    <image class="_img data-v-15fba8d2 inv" src="/static/images/inv.png"></image>
+    <view class="_div data-v-15fba8d2 bg_music" wx:if="{{isPlay}}" bindtap="handleProxy" data-eventid="{{'1_1'}}" data-comkey="{{$k}}">
+      <image src="/static/images/music_icon.png" class="_img data-v-15fba8d2 musicImg music_icon"></image>
+      <image src="/static/images/music_play.png" class="_img data-v-15fba8d2 music_play pauseImg"></image>
+    </view>
+    <view class="_div data-v-15fba8d2 bg_music" wx:else bindtap="handleProxy" data-eventid="{{'1_0'}}" data-comkey="{{$k}}">
+      <image src="/static/images/music_icon.png" class="_img data-v-15fba8d2 musicImg"></image>
+      <image src="/static/images/music_play.png" class="_img data-v-15fba8d2 music_play playImg"></image>
+    </view>
+    <view class="_div data-v-15fba8d2 info" animation="{{animationData}}">
+      <view class="_div data-v-15fba8d2 content">
+        <view class="_h1 data-v-15fba8d2">李凯延 <label class="_span data-v-15fba8d2">❤</label> 金小悠</view>
+        <view class="_p data-v-15fba8d2">谨定于 2020年12月26日（星期六）晚上18:00</view>
+        <view class="_p data-v-15fba8d2">农历 十一月十二日 晚上六点 举办百日宴</view>
+        <view class="_p data-v-15fba8d2">席设：今成酒楼</view>
+        <view class="_p data-v-15fba8d2">地址：佛山市顺德区新丰西路与荣阳路交叉路口西侧</view>
+        <image src="/static/images/we.png" class="_img data-v-15fba8d2 img_footer"></image>
+      </view>
+    </view>
+  </view>
+</template>

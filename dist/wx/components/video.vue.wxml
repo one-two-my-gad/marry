@@ -1,0 +1,7 @@
+<template name="d9ceeb50">
+  <view class="_div data-v-6bc16c2a section"><video id="myVideo" src="cloud://test1-4gqpf0yy03d701f7.7465-test1-4gqpf0yy03d701f7-1304451305/image/12.mp4" class="_video data-v-6bc16c2a"></video>
+    <view class="_div data-v-6bc16c2a btn-area"><input bindblur="handleProxy" placeholder="请输入临时弹幕，真实弹幕来自留言" placeholder-style="color:#bbb" data-eventid="{{'2_0'}}" data-comkey="{{$k}}" class="_input data-v-6bc16c2a" /> <button bindtap="handleProxy" data-eventid="{{'2_1'}}" data-comkey="{{$k}}" class="_button data-v-6bc16c2a">点击生成临时弹幕</button>
+      <image src="../../static/images/close1.png" bindtap="handleProxy" data-eventid="{{'2_2'}}" data-comkey="{{$k}}" class="_image data-v-6bc16c2a"></image>
+    </view>
+  </view>
+</template>

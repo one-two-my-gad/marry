@@ -1,0 +1,4 @@
+<import src="/components/indexSwiper.vue.wxml" />
+<import src="/components/form.vue.wxml" />
+<import src="/components/formlist.vue.wxml" />
+<import src="/components/swiper.vue.wxml" />

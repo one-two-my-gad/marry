@@ -1,0 +1,11 @@
+<template name="15e0d012">
+  <view class="_div data-v-9c8b9836 form">
+    <image class="_image data-v-9c8b9836 head-img" src="../../static/images/green-flower.png"></image>
+    <view class="_p data-v-9c8b9836 title"><label class="_span data-v-9c8b9836">* </label>姓名 </view> <input type="text" placeholder="怎么称呼您呢？" value="{{name}}" bindinput="handleProxy" maxlength="6" data-eventid="{{'1_0'}}" data-comkey="{{$k}}" class="_input data-v-9c8b9836" />
+    <view class="_p data-v-9c8b9836 title"><label class="_span data-v-9c8b9836">* </label>电话 </view> <input type="number" placeholder="请填写有效的手机号码" value="{{phone}}" bindinput="handleProxy" maxlength="11" data-eventid="{{'1_1'}}" data-comkey="{{$k}}" class="_input data-v-9c8b9836" />
+    <view class="_p data-v-9c8b9836 title"> 出席人数 </view>
+    <radio-group bindchange="handleProxy" class="_radio-group data-v-9c8b9836 group" data-eventid="{{'1_2'}}" data-comkey="{{$k}}"><label class="_label data-v-9c8b9836 radio" wx:key="index" key="{{index}}" wx:for="{{list}}" wx:for-index="index" wx:for-item="item">
+        <radio value="{{item.name}}" checked="{{item.checked}}" class="_radio data-v-9c8b9836" />
+        {{item.value}}
+      </label></radio-group>
+    <view class="_p data-v-9c8b9836 title"> 赴宴人员 </view> <textarea focus="true" maxlength="80" class="_textarea data-v-9c8b9836 desc" placeholder="请填写您会携带的眷属" name="textarea" placeholder-style="color:#ccc;" value="{{desc}}" bindinput="handleProxy" data-eventid="{{'1_3'}}" data-comkey="{{$k}}" /> <view class="_div data-v-9c8b9836 btn"><button class="_button data-v-9c8b9836 left" bindtap="handleProxy" data-eventid="{{'2_4'}}" data-comkey="{{$k}}">确认提交</button> <button class="_button data-v-9c8b9836 right" bindtap="handleProxy" data-eventid="{{'2_5'}}" data-comkey="{{$k}}">取消</button></view></view></template>

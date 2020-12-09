@@ -1,0 +1,18 @@
+<template name="4eb1feeb">
+  <view class="_div data-v-e9b5514e box">
+    <swiper class="_swiper data-v-e9b5514e swiper" autoplay="{{true}}" circular="{{true}}" current="0" indicator-dots="{{true}}">
+      <swiper-item class="_swiper-item data-v-e9b5514e item">
+        <image mode="aspectFill" lazy-load="true" src="cloud://test1-4gqpf0yy03d701f7.7465-test1-4gqpf0yy03d701f7-1304451305/image/1.png" class="_img data-v-e9b5514e slide-image"></image>
+      </swiper-item>
+      <swiper-item class="_swiper-item data-v-e9b5514e item">
+        <image mode="aspectFill" lazy-load="true" src="cloud://test1-4gqpf0yy03d701f7.7465-test1-4gqpf0yy03d701f7-1304451305/image/2.jpg" class="_img data-v-e9b5514e slide-image"></image>
+      </swiper-item>
+      <swiper-item class="_swiper-item data-v-e9b5514e item">
+        <image mode="aspectFill" lazy-load="true" src="cloud://test1-4gqpf0yy03d701f7.7465-test1-4gqpf0yy03d701f7-1304451305/image/3.jpeg" class="_img data-v-e9b5514e slide-image"></image>
+      </swiper-item>
+      <swiper-item class="_swiper-item data-v-e9b5514e item">
+        <image mode="aspectFill" lazy-load="true" src="cloud://test1-4gqpf0yy03d701f7.7465-test1-4gqpf0yy03d701f7-1304451305/image/4.jpg" class="_img data-v-e9b5514e slide-image"></image>
+      </swiper-item>
+    </swiper>
+  </view>
+</template>
